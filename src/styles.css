@@ -1,0 +1,137 @@
+*:focus {
+  outline: none;
+}
+
+.App {
+  font-family: Arial;
+  text-align: center;
+}
+p {
+  margin: 0 !important;
+}
+
+.flex {
+  display: flex;
+}
+.none {
+  display: none;
+}
+
+.yamiochi {
+  width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  border-right: solid 1px #e6ecf0;
+  border-left: solid 1px #e6ecf0;
+}
+
+.AddTodo {
+  width: 100%;
+}
+.AddTodo form {
+  width: 500px;
+}
+
+.List h2,
+.AddTodo h2 {
+  padding: 15px;
+  font-size: 19px;
+  color: #14171a;
+  border-top: solid 1px #e6ecf0;
+  border-bottom: solid 1px #e6ecf0;
+  margin: 0;
+}
+.List h2 {
+  border-top: solid 15px #e6ecf0;
+}
+
+/* ulを上下逆にして最新ツイートが上になるように設定 */
+ul {
+  transform: rotate(180deg);
+  list-style: none;
+  width: 100%;
+  margin: 0 !important;
+}
+ul > li {
+  transform: rotate(-180deg);
+}
+li {
+  padding: 10px 15px;
+  border-bottom: solid 1px #e6ecf0;
+}
+li:hover {
+  background: #f5f8fa;
+}
+
+.userIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
+  margin: 0 5px;
+}
+.borderIcon {
+  width: 48px;
+  height: 48px;
+  border: solid 1px #ccc;
+}
+.box {
+  margin: 0 5px;
+  /* padding-bottom: 10px; */
+  width: 100%;
+}
+.userName,
+.date {
+  display: inline;
+}
+.userName {
+  font-size: 15px;
+  font-weight: 800;
+  color: #14171a;
+}
+.userName img {
+  height: 12px;
+  padding: 0 5px;
+}
+.userName span {
+  color: #657786;
+  font-weight: 500;
+}
+.outer-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+button,
+input {
+  color: #fff;
+  border: none;
+  border-radius: 90px;
+  font-size: 15px;
+}
+.box button,
+.AddTodo input:hover {
+  background-color: #1da1f2;
+}
+.box button:hover,
+.AddTodo input {
+  background-color: #8ed0f9;
+}
+.box button {
+  padding: 8px 15px;
+  font-size: 12px;
+}
+.AddTodo input {
+  padding: 10px 20px;
+  display: block;
+}
+.AddTodo .flex {
+  padding: 10px 15px;
+}
+textarea {
+  font-size: 19px;
+  color: #14171a;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+}
